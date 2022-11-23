@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lightMode.css">
+    <title>Notes App</title>
+</head>
+
+<body>
+
+    <main>
+        <article class="theme">
+            <h2>My Notes</h2>
+            <header class="theme_btn">
+                <h3 id="light">Light</h3>
+                <h3 id="dark">Dark</h3>
+            </header>
+        </article>
+        <section class="add_note">
+            <aside>
+                <h4> Today</h4>
+                <article>
+                    <img id="note_icon"
+                        src="https://www.kindpng.com/picc/m/79-792244_write-icon-png-blue-png-download-write-icon.png"
+                        alt="">
+                </article>
+
+            </aside>
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea name="" id="user_note" cols="30" rows="7" placeholder="your note..." required></textarea>
+            <p>
+                <cite id="date"></cite> <button type="submit" id="save">save</button></p>
+        </section>
+
+
+
+        <section class="saved_note" id="saved_note">
+            <article class="note">
+                <p><span class="date">10.08</span>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </p>
+
+                <h5>My Title</h5>
+
+                <p id="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+                </p>
+
+                <button id="share">
+                    <ion-icon name="share-social"> </ion-icon>&nbsp;&nbsp; Share
+                </button>
+            </article>
+            <article class="note">
+                <p><span class="date">10.08</span>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </p>
+
+                <h5>My Title</h5>
+
+                <p id="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+                </p>
+
+                <button id="share">
+                    <ion-icon name="share-social"> </ion-icon>&nbsp;&nbsp; Share
+                </button>
+            </article>
+            <article class="note">
+                <p><span class="date">10.08</span>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </p>
+
+                <h5>My Title</h5>
+
+                <p id="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+                </p>
+
+                <button id="share">
+                    <ion-icon name="share-social"> </ion-icon>&nbsp;&nbsp; Share
+                </button>
+            </article>
+            <article class="note">
+                <p><span class="date">10.08</span>
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                </p>
+
+                <h5>My Title</h5>
+
+                <p id="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+                </p>
+
+                <button id="share">
+                    <ion-icon name="share-social"> </ion-icon>&nbsp;&nbsp; Share
+                </button>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="notesApp.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
